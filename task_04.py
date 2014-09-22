@@ -24,11 +24,11 @@ for player in PLAYERS:
                 NAME = NAME.strip()
                 TEAM = COUNTER % 3
                 if TEAM == 1:
-                    TEAM1 = TEAM1 + ', ' + NAME
+                    TEAM1 = TEAM1 + ',' + NAME
                 elif TEAM == 2:
-                    TEAM2 = TEAM2 + ', ' + NAME
+                    TEAM2 = TEAM2 + ',' + NAME
                 elif TEAM == 0:
-                    TEAM3 = TEAM3 + ', ' + NAME
+                    TEAM3 = TEAM3 + ',' + NAME
 
        
 TEAM1 = TEAM1.lstrip(', ')

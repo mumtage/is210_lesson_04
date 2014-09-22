@@ -21,7 +21,6 @@ for line in CRISPIAN:
         if char == ' ':
             WORDS += 1
     WORDS += 1
-    MINIMUM_WORDS = WORDS
     AVERAGE_WORDS += WORDS
     if WORDS > MAXIMUM_WORDS:
         MAXIMUM_WORDS = WORDS

@@ -9,9 +9,9 @@ PASSWORD = data.PASSWORD
 COUNTER = 3
 
 while not ACCESS:
-    KEY = raw_input('Input the password? You have {0} attempts left : '.format(COUNTER))
+    KEY = raw_input('Input password? You have {0} tries left: '.format(COUNTER))
     if KEY == PASSWORD:
-        ACCESS == True
+        ACCESS = True
         print "ACCESS GRANTED"
     else:
         COUNTER -= 1
