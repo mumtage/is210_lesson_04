@@ -18,4 +18,3 @@ while not ACCESS:
         if COUNTER == 0:
             print "TRY AGAIN SOME OTHER TIME"
             break
-        

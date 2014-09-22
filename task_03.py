@@ -4,13 +4,13 @@
 
 import data
 
-trans = data.TRANSACTIONS
+TRANS = data.TRANSACTIONS
 DAY_TOT = 0
 TOTAL = 0
 MINIMUM = sum(trans[0])
 MAXIMUM = 0
 
-for day in trans:
+for day in TRANS:
     for t in day:
         DAY_TOT += t
         TOTAL += t

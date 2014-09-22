@@ -30,11 +30,10 @@ for player in PLAYERS:
                 elif TEAM == 0:
                     TEAM3 = TEAM3 + ',' + NAME
 
-       
 TEAM1 = TEAM1.lstrip(', ')
 TEAM2 = TEAM2.lstrip(', ')
 TEAM3 = TEAM3.lstrip(', ')
 
 print TEAM1
 print TEAM2
-print TEAM3         
+print TEAM3
